@@ -1,0 +1,5 @@
+streamlit
+joblib
+matplotlib
+reportlab
+google-generativeai
