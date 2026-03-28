@@ -1,7 +1,7 @@
-streamlit
-numpy
-matplotlib
-scikit-learn
-joblib
-reportlab
-google-generativeai
+streamlit==1.32.0
+numpy==1.26.4
+matplotlib==3.8.2
+scikit-learn==1.3.2
+joblib==1.3.2
+reportlab==4.0.9
+google-generativeai==0.5.4
