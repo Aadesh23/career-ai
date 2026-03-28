@@ -1,5 +1,7 @@
 streamlit
-joblib
+numpy
 matplotlib
+scikit-learn
+joblib
 reportlab
 google-generativeai
