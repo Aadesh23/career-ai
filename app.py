@@ -12,6 +12,17 @@ import re
 import google.generativeai as genai
 import streamlit.components.v1 as components
 
+#-----
+import traceback
+import streamlit as st
+
+try:
+    pass  # your entire code below
+except Exception as e:
+    st.error("App crashed:")
+    st.text(str(e))
+    st.text(traceback.format_exc())
+
 # ---------------- GEMINI CONFIG ----------------
 GEMINI_API_KEY = "AIzaSyDYG1LgQPxLkMlTq1Tu7FNbEbQodSUJ8kQ"
 genai.configure(api_key=GEMINI_API_KEY)
