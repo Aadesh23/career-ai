@@ -24,7 +24,7 @@ except Exception as e:
     st.text(traceback.format_exc())
 
 # ---------------- GEMINI CONFIG ----------------
-GEMINI_API_KEY = "AIzaSyDYG1LgQPxLkMlTq1Tu7FNbEbQodSUJ8kQ"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 gemini_model = genai.GenerativeModel("gemini-2.5-flash")
 
